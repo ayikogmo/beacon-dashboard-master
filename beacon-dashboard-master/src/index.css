@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/* html,
+body, */
+/* :root {
+  --primary: #1c2038;
+  --grey: #393b4c;
+  --light: #e8e8e8;
+  --green: #41b883;
+  --sidebar-width: 250px;
+  --hover: rgba(0, 189, 126, 0.137);
+} */
+
+#root,
+.app {
+  /* height: 100%;
+  width: 1024px; */
+  font-family: "Inter", sans-serif;
+  
+}
+
+* {
+  /* height: 100%; */
+  /* width: 100%; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  letter-spacing: "1.2px";
+}
+
+body {
+  background: var(--primary);
+}
+
+#main {
+  font-family: "Inter", sans-serif;
+  background: var(--primary);
+  padding: 50px 0 50px 0;
+}
+
+.cardHighlight {
+  min-height: 100%;
+}
+
+/* Header CSS */
+
+#navbar {
+  justify-content: end;
+  align-items: right;
+  padding: 0.5rem;
+  margin-top: 16px;
+  border: none;
+}
+
+#navbar .navbar {
+  color: var(--light);
+}
+
+
+/* SIDEBAR CSS */
+
+#accordion .accordion{
+  background-color: "#21295c" !important;
+  border: "#21295c"
+}
+
+#accordion .accordion-button {
+  margin-left: 4rem;
+  width: "65%";
+  font-size: "14px";
+  color: var(--light);
+  width: 72%;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: "none";
+  border: "none";
+  color: var(--light)
+}
+
+.accordion-button.collapsed {
+  background-color: "none";
+}
+
+/* LOGIN FORM */
+
+#loginForm .form-label {
+  font-size: 16px;
+}
+
+
+#loginForm button {
+  line-height: 2rem;
+  font-size: 16px;
+  background: #41b883;
+}
